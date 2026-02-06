@@ -1,0 +1,444 @@
+# Article
+
+clean:
+  type: Article
+  title: Clean — A Language for Functional Graph Rewriting
+  author:
+    - Brus, Tom H.
+    - van Eekelen, Marko. C. J. D.
+    - van Leer, Maarten. O.
+    - Plasmeijer, Marinus. J.
+  date: 1987
+  page-range: 364-384
+  publisher: Springer
+  serial-number:
+    doi: 10.1007/3-540-18317-5_20
+    isbn: 978-3-540-47879-9
+  parent:
+    type: Proceedings
+    title: Functional Programming Languages and Computer Architecture
+    date: 1987-09
+    location: Portland
+
+clean-interworking:
+  type: Article
+  title: Lazy interworking of compiled and interpreted code for sandboxing and distributed systems
+  author:
+    - Staps, Camil
+    - van Groningen, John
+    - Plasmeijer, Rinus
+  date: 2021-07-15
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/3412932.3412941
+    isbn: 9781450375627
+  parent:
+    type: Proceedings
+    title: Proceedings of the 31st Symposium on Implementation and Application of Functional Languages
+    date: 2019-09
+    location: Singapore
+
+llvm:
+  type: Article
+  title: "LLVM: A compilation framework for lifelong program analysis & transformation"
+  author:
+    - Lattner, Chris
+    - Adve, Vikram
+  date: 2004-03
+  page-range: 75-86
+  publisher: IEEE
+  serial-number:
+    doi: 10.1109/CGO.2004.1281665
+    isbn: 0-7695-2102-9
+  parent:
+    type: Proceedings
+    title: International Symposium on Code Generation and Optimization
+    date: 2004-03
+    location: San Jose
+
+erlang-llvm:
+  type: Article
+  title: "ErLLVM: an LLVM backend for Erlang"
+  author:
+    - Sagonas, Konstantinos
+    - Stavrakakis, Chris
+    - Tsiouris, Yiannis
+  date: 2012-09-14
+  page-range: 21-32
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/2364489.2364494
+    isbn: 9781450315753
+  parent:
+    type: Proceedings
+    title: Proceedings of the Eleventh ACM SIGPLAN Workshop on Erlang Workshop
+    date: 2012-09
+    location: Copenhagen
+
+webassembly:
+  type: Article
+  title: Bringing the web up to speed with WebAssembly
+  author:
+    - Haas, Andreas
+    - Rossberg, Andreas
+    - Schuff, Derek L.
+    - Titzer, Ben L.
+    - Holman, Michael
+    - Gohman, Dan
+    - Wagner, Luke
+    - Zakai, Alon
+    - Bastien, J. F.
+  date: 2017-06-14
+  page-range: 185-200
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/3062341.3062363
+    isbn: 9781450349888
+  parent:
+    type: Proceedings
+    title: Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation
+    date: 2017-07
+    location: Barcelona
+
+itasks:
+  type: Article
+  title: "iTasks: executable specifications of interactive work flow systems for the web"
+  author:
+    - Plasmeijer, Rinus
+    - Achten, Peter
+    - Koopman, Pieter
+  date: 2007-10-01
+  page-range: 141-152
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/1291151.1291174
+    isbn: 9781595938152
+  parent:
+    type: Proceedings
+    title: Proceedings of the 12th ACM SIGPLAN International Conference on Functional Programming
+    date: 2007-10
+    location: Freiburg
+
+shadow-stack:
+  type: Article
+  title: Accurate garbage collection in an uncooperative environment
+  author: Henderson, Fergus
+  date: 2002-06-20
+  page-range: 150-156
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/512429.512449
+    isbn: 1581135394
+  parent:
+    type: Proceedings
+    title: Proceedings of the 3rd International Symposium on Memory Management
+    date: 2002-06
+    location: Berlin
+
+benchmark-warmup:
+  type: Article
+  title: Virtual machine warmup blows hot and cold
+  author:
+    - Barrett, Edd
+    - Bolz-Tereick, Carl Friedrich
+    - Killick, Rebecca
+    - Mount, Sarah
+    - Tratt, Laurence
+  date: 2017-10-12
+  pages: 1-27
+  publisher: Association for Computing Machinery
+  serial-number: { doi: 10.1145/3133876 }
+  parent:
+    type: Proceedings
+    title: Proceedings of the ACM on Programming Languages
+
+haskell-llvm:
+  type: Article
+  title: An LLVM backend for GHC
+  author:
+    - Terei, David A.
+    - Chakravarty, Manuel M. T.
+  date: 2010-09-30
+  page-range: 109-120
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/1863523.1863538
+    isbn: 9781450302524
+  parent:
+    type: Proceedings
+    title: Proceedings of the Third ACM Haskell Symposium on Haskell
+    date: 2010-09
+    location: Baltimore
+
+top:
+  type: Article
+  title: Task-oriented Programming in a Pure Functional Language
+  author:
+    - Plasmeijer, Rinus
+    - Lijnse, Bas
+    - Michels, Steffen
+    - Achten, Peter
+    - Koopman, Pieter
+  date: 2012-09-19
+  page-range: 195-206
+  publisher: Association for Computing Machinery
+  serial-number:
+    doi: 10.1145/2370776.2370801
+    isbn: 9781450315227
+  parent:
+    type: Proceedings
+    title: Proceedings of the 14th Symposium on Principles and Practice of Declarative Programming
+    date: 2012-09
+    location: Leuven
+
+wasm-performance-native:
+  type: Article
+  title: "Not so fast: Analyzing the performance of WebAssembly vs. native code"
+  author:
+    - Jangda, Abhinav
+    - Powers, Bobby
+    - Berger, Emery D.
+    - Guha, Arjun
+  date: 2019-07
+  page-range: 107-120
+  serial-number: { isbn: 978-1-939133-03-8 }
+  parent:
+    type: Proceedings
+    title: 2019 USENIX Annual Technical Conference (USENIX ATC 19)
+    date: 2019-07
+    location: Renton
+
+wasm-performance-native-ieee:
+  type: Article
+  title: An Evaluation of WebAssembly in Non-Web Environments
+  author:
+    - Spies, Benedikt
+    - Mock, Markus
+  date: 2021-10
+  serial-number: { doi: 10.1109/CLEI53233.2021.9640153 }
+  parent:
+    title: 2021 XLVII Latin American Computing Conference (CLEI)
+    date: 2021-10
+    location: Cartago
+
+wasm-performance-js:
+  type: Article
+  title: Understanding the Performance of WebAssembly Applications
+  author:
+    - Yan, Yutian
+    - Tu, Tengfei
+    - Zhao, Lijian
+    - Zhou, Yuchen
+    - Wang, Weihang
+  date: 2021-11-02
+  page-range: 533-549
+  publisher: Association for Computing Machinery
+  serial-number: { doi: 10.1145/3487552.3487827 }
+  parent:
+    type: Proceedings
+    title: Proceedings of the 21st ACM Internet Measurement Conference
+    date: 2021-11
+
+wasm-performance-embedded:
+  type: Article
+  title: Benchmarking WebAssembly for Embedded Systems
+  author:
+    - Moron, Konrad
+    - Wallentowitz, Stefan
+  date: 2025-09-17
+  publisher: Association for Computing Machinery
+  serial-number:
+    issn: 1544-3566
+    doi: 10.1145/3736169
+  parent:
+    title: ACM Trans. Archit. Code Optim.
+    volume: 22
+    issue: 3
+
+wasocaml:
+  type: Article
+  title: "Wasocaml: Compiling OCaml to WebAssembly"
+  author:
+    - Andrès, Léo
+    - Chambart, Pierre
+    - Filliâtre, Jean-Christophe
+  date: 2023-07
+  url: https://inria.hal.science/hal-04311345
+
+
+
+# Thesis
+
+abc:
+  type: Thesis
+  title: Functional programs as executable specifications
+  author: Koopman, Pieter W. M.
+  date: 1990
+  genre: Dissertation
+  organisation: Radboud University
+  publisher: Radboud University Press
+  serial-number: { isbn: 909003689X }
+
+haskell-llvm-thesis:
+  type: Thesis
+  title: Low level virtual machine for Glasgow Haskell Compiler
+  author: Terei, David Anthony
+  date: 2009-10-20
+  genre: Bachelor's thesis
+  url: https://www.llvm.org/pubs/2009-10-TereiThesis.pdf
+  organization: University of New South Wales
+
+haskell-wasmgc:
+  type: Thesis
+  title: Towards a WebAssembly Backend for MicroHs
+  author: Anand, Apoorva
+  date: 2025-09
+  genre: Master's thesis
+  organisation: Utrecht University
+
+itasks-in-browser:
+  type: Thesis
+  title: Running iTasks tasks in the browser
+  author: Vos, Sofie
+  date: 2025-02-10
+  genre: Bachelor's thesis
+  url: https://cs.ru.nl/bachelors-theses/2024/Sofie_Vos___1068747___Running_iTasks_tasks_in_the_browser.pdf
+  organisation: Radboud University
+
+
+
+# Repository & Web
+
+hyperfine:
+  type: Repository
+  title: hyperfine
+  author: Peter, David
+  date: 2023-03
+  url:
+    value: https://github.com/sharkdp/hyperfine
+    date: 2025-10-21
+  license: MIT
+
+
+
+clean-lang-docs:
+  type: Web
+  title: The Clean Language
+  url:
+    value: https://top-software.gitlab.io/clean-lang/
+    date: 2025-10-21
+
+clean-llvm:
+  type: Web
+  title: Clean-LLVM
+  url:
+    value: https://gitlab.com/clean-and-itasks/clean-llvm
+    date: 2025-10-21
+
+elm-stack-map:
+  type: Web
+  title: elm_c_wasm/src/kernel/core/gc/stack.c
+  author: Carroll, Brian
+  url:
+    value: https://github.com/brian-carroll/elm_c_wasm/blob/master/src/kernel/core/gc/stack.c#L5-L39
+    date: 2025-10-21
+  parent:
+    type: Repository
+    title: elm_c_wasm
+    url: https://github.com/brian-carroll/elm_c_wasm
+
+ocaml-wasm:
+  type: Web
+  title: Wasm_of_ocaml
+  author: Ocsigen
+  url:
+    value: https://github.com/ocsigen/js_of_ocaml/blob/master/README_wasm_of_ocaml.md
+    date: 2025-10-21
+  parent:
+    type: Repository
+    title: js_of_ocaml
+    url: https://github.com/ocsigen/js_of_ocaml
+
+ghc-reddit:
+  type: Web
+  title: "How does GHC's garbage collection work on LLVM?"
+  url:
+    value: https://www.reddit.com/r/haskell/comments/3qix1e/how_does_ghcs_garbage_collection_work_on_llvm/
+    date: 2025-10-21
+
+julia-llvm:
+  type: Web
+  title: Working with LLVM
+  author:
+    - Bezanson, Jeff
+    - Edelman, Alan
+    - Karpinski, Stefan
+    - Shah, Viral B.
+  url:
+    value: https://docs.julialang.org/en/v1/devdocs/llvm
+    date: 2025-10-21
+
+graalvm-llvm:
+  type: Web
+  title: LLVM Backend for Native Image
+  author: Oracle
+  url:
+    value: https://github.com/oracle/graal/blob/master/substratevm/src/com.oracle.svm.core.graal.llvm/src/com/oracle/svm/core/graal/llvm/LLVMBackend.md#llvm-statepoint-support
+    date: 2025-10-21
+
+wasmgc-blog:
+  type: Article
+  title: A new way to bring garbage collected programming languages efficiently to WebAssembly
+  author: Zakai, Alon
+  date: 2023-11-01
+  url:
+    value: https://v8.dev/blog/wasm-gc-porting
+    date: 2025-11-13
+  parent:
+    type: Blog
+
+v8-liftoff:
+  type: Article
+  title: "Liftoff: a new baseline compiler for WebAssembly in V8"
+  author: Backes, Clemens
+  date: 2018-08-20
+  url:
+    value: https://v8.dev/blog/liftoff
+    date: 2026-01-15
+  parent:
+    type: Blog
+
+clbg:
+  type: Web
+  title: The Computer Language Benchmarks Game
+  author: Gouy, Isaac
+  url:
+    value: https://benchmarksgame-team.pages.debian.net/benchmarksgame/
+    date: 2025-11-27
+
+tangollvm:
+  type: Misc
+  title: "TangoLLVM: An LLVM Backend for the Go compiler"
+  author:
+    - Gu, Tianxiao
+    - Feng, Rui
+    - Liu, Fengkai
+    - Sun, Nian
+  date: 2025-10-29
+  url: https://llvm.org/devmtg/2025-10/slides/quick_talks/gu.pdf
+
+tinygo:
+  type: Web
+  title: TinyGo - Go compiler for small places
+  author: TinyGo authors
+  url:
+    value: https://tinygo.org/
+    date: 2026-01-19
+
+llgo:
+  type: Web
+  title: LLGo - A Go compiler based on LLVM
+  author: Goplus
+  url:
+    value: https://github.com/goplus/llgo
+    date: 2026-01-19

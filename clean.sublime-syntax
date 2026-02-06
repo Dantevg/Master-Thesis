@@ -1,0 +1,49 @@
+name: Clean
+file_extensions:
+  - .icl
+  - .dcl
+scope: source.clean
+contexts:
+  main:
+    - match: "^((implementation|definition|system)\\s+)?module\\s+"
+      captures:
+        0: keyword.control.clean
+      push:
+        - match: \n
+          pop: true
+        - match: .*
+          scope: entity.name.namespace.clean
+    - match: /\*
+      scope: comment.block.clean
+      push:
+        - match: \*/
+          scope: comment.block.clean
+          pop: true
+        - match: .*
+          scope: comment.block.clean
+    - match: //.*$
+      scope: comment.line.double-dash.clean
+    - match: "[+-~]?(\\d+|0[0-7]+|0x[0-9A-Fa-f]+)"
+      scope: constant.numeric.clean
+    - match: "(True|False)"
+      scope: constant.language.clean
+    - match: "[-~@#$%^?!+*<>\\/|&=:.]+"
+      scope: keyword.operator.clean
+    - match: "^::\\s*[.*]\\?[A-Z_][a-zA-Z0-9_`]"
+      scope: keyword.operator.clean
+    - match: "^\\s*(\\((\\w*`?|[-~@#$%^?!+*<>\\/|&=:.]+)\\)|[\\w`]*)(\\s+(infix[lr]?)\\s+(\\d))?\\s*(::)\\s*"
+      scope: invalid.illegal
+      captures:
+        1: entity.name.function.clean
+        2: entity.name.function.clean
+        4: keyword.infix.clean
+        5: constant.numeric.integer.clean
+        6: keyword.defineType.clean
+    - match: "\\b(if|otherwise)\\b"
+      name: keyword.control.clean
+    - match: "\\b(let!|let|in|with|where|case|of|dynamic)\\b"
+      name: keyword.control.clean
+    - match: "\\b(class|instance|special)\\b"
+      name: meta.class.clean
+    - match: "\\b(infixl|infixr|infix)\\b"
+      name: keyword.other.clean
